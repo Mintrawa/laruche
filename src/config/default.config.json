@@ -1,0 +1,11 @@
+{
+  "WSS":"wss://toolbox.mintrawa.com/wss/",
+  "ACCOUNT": "xxxxxx",
+  "KEYS": {
+    "posting":"XXXXXXXXXXXXXX"
+  },
+  "TAGS" : ["fr"],
+  "COMMUNITIES": ["hive-196396"],
+  "LANGS": ["fr"],
+  "ACCOUNTS": ["laruche"]
+}
