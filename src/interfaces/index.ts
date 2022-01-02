@@ -30,6 +30,7 @@ export interface POST_DATA {
   author:            string
   author_reputation: number
   author_new:        boolean
+  last_post?:        Date
   title:             string
   permlink:          string
   category:          string

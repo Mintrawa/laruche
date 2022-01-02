@@ -104,3 +104,6 @@ dist/
 
 # Generated files during install of Application (sensitive!!)
 src/config/config.json
+
+# package-lock.json
+package-lock.json

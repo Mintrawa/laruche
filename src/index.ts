@@ -23,7 +23,7 @@ const start = async (): Promise<void> => {
       key:     'posting'
     }
     const key = PrivateKey.fromString(config.KEYS.posting)
-    const signature = createHash('sha256').update(Buffer.from(auth.toString())).digest()
+    const signature = createHash('sha256').update(Buffer.from(JSON.stringify(auth))).digest()
     auth.signature = key.sign(signature).toString()
 
     /** Try to connect */
